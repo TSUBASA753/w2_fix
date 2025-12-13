@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         appBarTheme: AppBarTheme(
-            backgroundColor: Color(0xE7FF5252),
-            foregroundColor: Color(0xFF000773)
+            backgroundColor: Color(0xFFE0AFA0),
+            foregroundColor: Color(0xFF8A817C)
         ),
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0x00000000)),
         scaffoldBackgroundColor: const Color(0xF0F3E6D9),
@@ -42,8 +42,8 @@ class MyHomePage extends StatelessWidget {
         child: TextButton(onPressed: () => Navigator.pushNamed(context, '/rtg' ),
           child: Text('Start'),
         style: TextButton.styleFrom(
-          backgroundColor: Color(0xE77A85FF),
-          foregroundColor: Color(0xFFFFC23F)
+          backgroundColor: Color(0xFFE0AFA0),
+          foregroundColor: Color(0xFF8A817C)
 
          ),
         ),
